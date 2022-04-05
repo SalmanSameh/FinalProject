@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+/* Top */
+
+html, body{
+    margin: 0;
+}
+body{
+    background-color: #e9ecef;
+}
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: #023047;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.top:hover{
+    height: 120px;
+}
+.logo{
+    height: 80px;
+    padding-left: 20px;
+}
+.sitename{
+    padding-left: 10px;
+    font-family: 'Changa', sans-serif;
+    color: #fb8500;
+}
+.pages{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30%;
+    width: 45%;
+}
+.lnk{
+    text-decoration: none;
+    color: white;
+    font-family: 'Changa', sans-serif;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.lnk:hover{
+    color: #fb8500;
+}
+
+/* Body */
+
+.phedit, .phedit3{
+    height: 500px;
+    width: 750px;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+.phedit3{
+    padding-right: 100px;
+}
+.phedit2{
+    height: 400px;
+    width: 700px;
+    padding-top: 75px;
+    margin-right: 15px;
+    padding-left: 100px;
+}
+.edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.we{
+    font-family: 'Changa', sans-serif;
+    font-weight: bolder;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.we:hover{
+    color: #fb8500;
+}
+.we2{
+    color: #fb8500;
+    font-family: 'Changa', sans-serif;
+}
+#us{
+    background-color: #adb5bd;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#us:hover{
+    height: 160px;
+}
+.usf{
+    font-family: 'Changa', sans-serif;
+}
+.text>ul>ol>li>a{
+    -webkit-transition: all 0.3s;
+    transition: 0.3s;
+}
+.text>ul>ol>li>a:hover{
+    color: #fb8500;
+}
+
+/*Other pages*/
+
+.text{
+    margin: 15px;
+    direction: rtl;
+    font-family: 'Changa', sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+ul>li{
+   color: #fb8500 
+}
+li{
+    font-size: x-large;
+}
+ol>li{
+    color: #023047;
+}
+.wlnk{
+    text-decoration: none;
+    color: #023047;
+}
+.photow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.photow>.coursera{
+    height: 250px;
+    width: 45%;
+}
+.inst{
+    width: 200px;
+    height: 200px;
+    padding-right: 25px;
+}
+.edraak{
+    display: flex;
+    justify-content: flex-end;
+}
+.edraak>img{
+    width: 100px;
+    height: 40px;
+}
+.zatal{
+    display: flex;
+    justify-content: space-evenly;
+}
+.zatal>button{
+    background-color: #003049;
+    height: 50px;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 4px 7px #fb8500;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.zatal>button:hover{
+    background-color: #fb8500;
+    box-shadow: 5px 8px #003049;
+}
+.zatal>button>a{
+    text-decoration: none;
+    font-family: 'Changa', sans-serif;
+    color: white;
+}
+.zameimg{
+    height: 450px;
+    width: 230px;
+}
+.talimg{
+    height: 550px;
+    width: 300px;
+}
+.wlogo{
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 150px;
+    width: 150px;
+}
+.wlogo:hover{
+    height: 160px;
+    width: 160px;
+}
+#duologo, #buslogo{
+    border-radius: 10%;
+}
+.busimg{
+    width: 400px;
+    height: 250px;
+}
+.qform{
+    font-family: 'Changa', sans-serif;
+    margin-right: 50px;
+}
+#opi{
+    height: 100px;
+    width: 200px;
+}
+#thanx{
+    font-family: 'Changa', sans-serif;
+}
+#thanx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#optag{
+    text-decoration: none;
+    color: black;
+}
+.youtube{
+    display: flex;
+    justify-content: center;
+}
